@@ -15,7 +15,7 @@ const limiter = rateLimit({
 });
 
 const corsOptions = {
-  origin: 'http://biliontowers.com',
+  origin: ['http://biliontowers.com', 'http://127.0.0.1:8000'],
   optionsSuccessStatus: 200
 };
 
